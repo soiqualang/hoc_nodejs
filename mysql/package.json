@@ -1,0 +1,11 @@
+{
+  "name": "mysql2node",
+  "version": "1.0.0",
+  "description": "npm install mysql https://o7planning.org/vi/11959/ket-noi-co-so-du-lieu-mysql-su-dung-nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
