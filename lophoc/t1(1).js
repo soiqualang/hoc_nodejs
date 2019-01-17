@@ -1,12 +1,14 @@
 var storage = require('node-persist');
 
+//khoi tao db
 var opt={
-    dir : "db/redrose.db",
+    dir : "db/lophoc.db",
     ttl : false
 };
 //ttl: time to live
 
 storage.initSync(opt);
+
 /*
 storage.init().then(function(){
     // Gọi các hàm setItem, getItem
@@ -14,12 +16,10 @@ storage.init().then(function(){
 */
 
 
-storage.setItemSync('domain2','truongho.com');
+//storage.setItemSync('domain','dothanhlong.org');
 
-var domain=storage.getItemSync('domain');
+var domain=storage.getItem('domain');
 console.log(domain);
-var domain2=storage.getItemSync('domain2');
-console.log(domain2);
 
 //storage.removeItem('domain');
 
