@@ -1,0 +1,16 @@
+{
+  "name": "node3_nodemon",
+  "version": "1.0.0",
+  "description": "``` npm install --save express npm install --save ejs npm install --save -g nodemon npm install --save nodemon ``` >https://viblo.asia/p/su-dung-ejs-de-quan-ly-view-trong-node-app-RnB5peeGKPG",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  }
+}
