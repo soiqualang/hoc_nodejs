@@ -1,0 +1,14 @@
+{
+  "name": "hoc_yargs",
+  "version": "1.0.0",
+  "description": ">Yargs là một module có tác dụng tách chuỗi của các request và lấy các tham số + giá trị của các tham số, module này rất hữu ích trong việc giao tiếp lấy dữ liệu từ client.\r https://freetuts.net/gioi-thieu-module-yargs-trong-nodejs-591.html\r ```\r npm install yargs --save\r ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^12.0.5"
+  }
+}
