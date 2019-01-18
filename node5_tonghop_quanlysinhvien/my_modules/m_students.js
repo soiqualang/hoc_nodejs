@@ -1,3 +1,4 @@
+//http://rose.dothanhlong.org:3000/students/?id=999&name=soiqualang&age=29
 module.exports = function(app) {
     //method for students
     app.route('/students')
