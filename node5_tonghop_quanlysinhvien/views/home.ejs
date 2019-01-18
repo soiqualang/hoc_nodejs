@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include includes/head %>
+</head>
+<body class="container">
+
+    <header>
+        <% include includes/header %>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <h2>Danh sách học sinh</h2>
+            <hr>
+            <div class="container">
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Id</th>
+                    <th>Full name</th>
+                    <th>Email</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                    <%
+                        getAllStudents.forEach(function(student){
+                            %><tr><%
+                            %><td><%=student.id%></td><%
+                            %><td><%=student.fullname%></td><%
+                            %><td><%=student.email%></td><%
+                            %><td>
+                                <a href="#">View</a> | 
+                                <a href="#">Edit</a> | 
+                                <a href="#">Delete</a>
+                              </td><%
+                            %></tr><%
+                        });
+                    %>
+                </tbody>
+              </table>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <% include includes/footer %>
+    </footer>
+
+</body>
+</html>
