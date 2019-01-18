@@ -1,0 +1,11 @@
+{
+  "name": "nodejs_module",
+  "version": "1.0.0",
+  "description": ">https://viblo.asia/p/nodejs-tutorial-phan-2-module-trong-nodejs-MgNvWDdKGYx",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
