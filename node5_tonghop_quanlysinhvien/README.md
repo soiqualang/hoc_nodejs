@@ -20,4 +20,4 @@ Nội dung ôn:
 * https://github.com/soiqualang/hoc_nodejs/tree/master/node2_truyenbien_express
 * https://github.com/soiqualang/hoc_nodejs/tree/master/node4_tach_module
 
-![alt](http://rose.dothanhlong.org/nodejs/node4_tach_module/h2.png)
+![alt](http://rose.dothanhlong.org/nodejs/node5_tonghop_quanlysinhvien/h1.png)
