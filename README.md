@@ -17,14 +17,16 @@ https://nodejs.org/en/
 ## Run node app
 `node [file js]`
 
-## Update node
+## Manage Nodejs version
 ### Linux
 
 `npm install -g n`
 
  `sudo n latest`
  
+ `n`
  
+ ***
  
  https://www.npmjs.com/package/n
  
